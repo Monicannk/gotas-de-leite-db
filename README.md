@@ -13,10 +13,15 @@ O projeto contempla:
 ## 📚 Estrutura do Repositório
 
 ├── 01_create_tables.sql # Criação do banco e de todas as tabelas
+
 ├── 02_inserts.sql # Dados iniciais inseridos nas tabelas
+
 ├── 03_selects.sql # Consultas SELECT utilizando filtros e JOINs
+
 ├── 04_updates.sql # Atualizações utilizando UPDATE
+
 ├── 05_deletes.sql # Remoções utilizando DELETE
+
 └── README.md # Este arquivo
 
 ---
@@ -60,25 +65,36 @@ Todas as chaves primárias, estrangeiras e regras de integridade foram aplicadas
 ✔ 1. Criar o banco e as tabelas
 
 No MySQL Workbench, execute:
+
 SOURCE 01_create_tables.sql;
+
 Ou abra o arquivo e clique no botão ⚡.
 
 ✔ 2. Inserir os dados
+
 SOURCE 02_inserts.sql;
 
 ✔ 3. Consultar os dados
+
 SOURCE 03_selects.sql;
 
 As consultas demonstram:
+
 Uso de ``WHERE``
+
 Ordenação com ``ORDER BY``
+
 Limite com ``LIMIT``
+
 Junções com ``JOIN``
 
+
 ✔ 4. Atualizar registros
+
 SOURCE 04_updates.sql;
 
 ✔ 5. Remover registros
+
 SOURCE 05_deletes.sql;
 
 ---
@@ -86,9 +102,13 @@ SOURCE 05_deletes.sql;
 💻 Tecnologias Utilizadas
 
 MySQL 8+
+
 MySQL Workbench
+
 SQL (DDL e DML)
+
 Git & GitHub
+
 
 ---
 
