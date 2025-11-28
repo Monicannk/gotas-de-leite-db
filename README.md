@@ -70,7 +70,7 @@ SOURCE 01_create_tables.sql;
 
 Ou abra o arquivo e clique no botão ⚡.
 
-
+<b>
 ✔ 2. Inserir os dados
 
 SOURCE 02_inserts.sql;
