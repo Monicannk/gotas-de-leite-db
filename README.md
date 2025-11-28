@@ -38,29 +38,29 @@ CREATE DATABASE gotas_de_leite;
 
 O banco modela os seguintes elementos essenciais do sistema:
 
-DOADORA – Informações das doadoras de leite.
+**DOADORA** – Informações das doadoras de leite.
 
-RECEPTORA – Hospitais, instituições e pessoas que recebem leite.
+**RECEPTORA** – Hospitais, instituições e pessoas que recebem leite.
 
-VOLUNTARIO – Voluntários que realizam coletas.
+**VOLUNTARIO** – Voluntários que realizam coletas.
 
-COLETA – Registro de cada coleta de leite.
+**COLETA** – Registro de cada coleta de leite.
 
-LOTE – Lotes coletados associados às coletas.
+**LOTE** – Lotes coletados associados às coletas.
 
-ANALISE_LABORATORIAL – Resultados das análises dos lotes.
+**ANALISE_LABORATORIAL** – Resultados das análises dos lotes.
 
-ESTOQUE – Controle de validade e disponibilidade dos lotes.
+**ESTOQUE** – Controle de validade e disponibilidade dos lotes.
 
-PEDIDO – Solicitações de leite feitas por receptoras.
+**PEDIDO** – Solicitações de leite feitas por receptoras.
 
-PEDIDO_LOTE – Relação N:N entre pedidos e lotes.
+**PEDIDO_LOTE** – Relação N:N entre pedidos e lotes.
 
 Todas as chaves primárias, estrangeiras e regras de integridade foram aplicadas conforme o modelo lógico.
 
 ---
 
-### ▶️ Como executar
+### ▶️ **Como executar**
 
 ✔ 1. Criar o banco e as tabelas
 
@@ -70,13 +70,16 @@ SOURCE 01_create_tables.sql;
 
 Ou abra o arquivo e clique no botão ⚡.
 
+
 ✔ 2. Inserir os dados
 
 SOURCE 02_inserts.sql;
 
+
 ✔ 3. Consultar os dados
 
 SOURCE 03_selects.sql;
+
 
 As consultas demonstram:
 
@@ -89,9 +92,11 @@ Limite com ``LIMIT``
 Junções com ``JOIN``
 
 
+
 ✔ 4. Atualizar registros
 
 SOURCE 04_updates.sql;
+
 
 ✔ 5. Remover registros
 
@@ -99,7 +104,7 @@ SOURCE 05_deletes.sql;
 
 ---
 
-💻 Tecnologias Utilizadas
+💻 **Tecnologias Utilizadas**
 
 MySQL 8+
 
@@ -112,12 +117,12 @@ Git & GitHub
 
 ---
 
-👩‍💻 Autoria
+👩‍💻 **Autoria**
 
 Projeto desenvolvido para fins acadêmicos como parte da disciplina de Modelagem e Desenvolvimento de Banco de Dados.
 
 ---
 
-🌸 Observação Final
+🌸 **Observação Final**
 
 Este repositório demonstra todo o ciclo de construção de um banco de dados relacional — desde sua concepção até manipulação dos dados — utilizando como cenário o projeto social fictício Gotas de Leite, inspirado em bancos de leite humano reais.
