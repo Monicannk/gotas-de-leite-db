@@ -69,15 +69,21 @@ No MySQL Workbench, execute:
 SOURCE 01_create_tables.sql;
 
 Ou abra o arquivo e clique no botão ⚡.
+
 <br>
+
 ✔ 2. Inserir os dados
 
 SOURCE 02_inserts.sql;
+
 <br>
+
 ✔ 3. Consultar os dados
 
 SOURCE 03_selects.sql;
+
 <br>
+
 As consultas demonstram:
 
 Uso de ``WHERE``
@@ -87,11 +93,15 @@ Ordenação com ``ORDER BY``
 Limite com ``LIMIT``
 
 Junções com ``JOIN``
+
 <br>
+
 ✔ 4. Atualizar registros
 
 SOURCE 04_updates.sql;
+
 <br>
+
 ✔ 5. Remover registros
 
 SOURCE 05_deletes.sql;
